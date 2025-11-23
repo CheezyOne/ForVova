@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3295727126538055946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7427043474261923125}
+  - component: {fileID: 5009811032157398540}
+  m_Layer: 0
+  m_Name: Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7427043474261923125
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3295727126538055946}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 2548171465859337555}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 5.625, y: 3.94}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5009811032157398540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3295727126538055946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1692d9fa5a4bff445b04ea5418d590e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _boltsPlace: {fileID: 2548171465859337555}
+  _normalBolt: {fileID: 451182108120444635, guid: 9c9b0ef2891e02349a87f463f23c4ecf, type: 3}
+  _shortBolt: {fileID: 1518624574570815021, guid: 193b7dd08cc797c43ac9c924fa558606, type: 3}
+  _tallBolt: {fileID: 6537374613405982167, guid: c06f1760e911ccc489801f43e244aa81, type: 3}
+  _skyscraperBolt: {fileID: 7989469630040320355, guid: 30872212a7a490449a80282d5b211214, type: 3}
+  _spawnTimeDelta: 0.3
+  _transparency: 0.7
+  _screw: {fileID: 7826137935319749727, guid: 40f30dd6e2c9a5e47a5606434036f20f, type: 3}
+  _screwsConfig: {fileID: 11400000, guid: 79229636e094d0e4495d2804cabdb8be, type: 2}
+  _shuffleMaxSameScrews: 2
+  _gridCellSize: {x: 1.3, y: 2.6, z: 0}
+  _gridColumns: 4
+  _distanceOffsetPerRow: 4
+  _zOffset: 0
+  _bottomRowCameraOffset: 0.5
+--- !u!1 &4986293368071442568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2548171465859337555}
+  m_Layer: 5
+  m_Name: BoltsPlaces
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2548171465859337555
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4986293368071442568}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 7427043474261923125}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -1.05}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}

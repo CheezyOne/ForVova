@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a02a5da10e7594183f4daa14fdb541, type: 3}
+  m_Name: ScrewsConfig
+  m_EditorClassIdentifier: 
+  _materials:
+  - {fileID: 2100000, guid: 895581c27ace6f34eb7781c4604f66a7, type: 2}
+  - {fileID: 2100000, guid: 8a75a2154b0ca284d9c4942cf0aa1ff9, type: 2}
+  - {fileID: 2100000, guid: 7b6f01ff925114140a43e102564e8663, type: 2}
+  - {fileID: 2100000, guid: ee872544b1387b6458f4abc7ecfc8225, type: 2}
+  - {fileID: 2100000, guid: b82eae50e15f68d439d2076b5a764f7f, type: 2}
+  - {fileID: 2100000, guid: 87e54ca84b16613479a5f23d270ed3bb, type: 2}
+  - {fileID: 2100000, guid: 39f027703898bcd4ca14c93d4dbce51a, type: 2}
+  - {fileID: 2100000, guid: 520eb3281a6fa3e4f96ac62f51ba6baf, type: 2}
+  - {fileID: 2100000, guid: 8a606b07eddb85f4bbce9c06983125fa, type: 2}
+  - {fileID: 2100000, guid: 66268ed0e06951348a2386ac2791c89d, type: 2}
+  _secretMaterial: {fileID: 2100000, guid: cb6b70a1eded6f646bb68b5bf4d8bf25, type: 2}
